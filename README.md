@@ -20,7 +20,7 @@ Choose any of the following dereverb methods for mixture and generate the input 
         
 Step4:
 
-Pass the dereverberated mixture through SONET ang generate ILD and IPD masks for target and interferer.
+Pass the dereverberated mixture through Pretrained SONET network (gregnet for ILD and ipdnet for IPD; trained at 30 and 90 degrees target-masker separation) and generate ILD and IPD masks for target and interferer.
 
 Step5: 
 
